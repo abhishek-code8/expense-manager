@@ -1,42 +1,50 @@
 [
-    {
+  {
     "id": "1",
     "title": "air ticket",
     "category": "fair",
     "description": "went to goa",
     "amount": "20000",
     "expenseDate": "26/05/2017"
-    },
-    {
-        "id": "2",
-        "title": "lunch with friends",
-        "category": "fair",
-        "description": "lunch with friends",
-        "amount": "10000",
-        "expenseDate": "01/03/2018"
-    },
-    {
-        "id": "3",
-        "title": "shopping for kid's",
-        "category": "shopping",
-        "description": "shopping with kid's",
-        "amount": "8000",
-        "expenseDate": "28/08/2017"
-    },
-    {
-        "id": "4",
-        "title": "medical bill for self",
-        "category": "medical",
-        "description": "dengu bill",
-        "amount": "7000",
-        "expenseDate": "18/11/2017"
-    },
-    {
-        "id": "5",
-        "title": "electricity bill",
-        "category": "bill",
-        "description": "jan bill",
-        "amount": "4000",
-        "expenseDate": "01/01/2018"
-    }
+  },
+  {
+    "id": "2",
+    "title": "lunch with friends",
+    "category": "fair",
+    "description": "lunch with friends",
+    "amount": "10000",
+    "expenseDate": "01/03/2018"
+  },
+  {
+    "id": "3",
+    "title": "shopping for kid's",
+    "category": "shopping",
+    "description": "shopping with kid's",
+    "amount": "8000",
+    "expenseDate": "28/08/2017"
+  },
+  {
+    "id": "4",
+    "title": "medical bill for self",
+    "category": "medical",
+    "description": "dengu bill",
+    "amount": "7000",
+    "expenseDate": "18/11/2017"
+  },
+  {
+    "id": "5",
+    "title": "electricity bill",
+    "category": "bill",
+    "description": "jan bill",
+    "amount": "4000",
+    "expenseDate": "01/01/2018"
+  },
+  {
+    "id": "a51a3c82-9d6c-46be-a8d4-eb3c258fe9be",
+    "title": "xbox",
+    "category": "gaming device",
+    "description": "electronics",
+    "amount": "35000",
+    "expenseDate": "09/01/2021"
+  }
 ]

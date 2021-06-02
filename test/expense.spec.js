@@ -1,6 +1,18 @@
 const expect = require('chai').expect;
 const request =  require('supertest');
 const app = require('../index');
+const should = require('chai').should();
+
+
+expenseTemp ={   
+  "id":"8b1febbb-600e-41db-9ca5-9223f1e0ffb6",
+  "title": "xbox",
+  "category": "electronics",
+  "description": "gaming device",
+  "amount": "35000",
+  "expenseDate": "09/01/2021"
+}
+
 // testsuit starts from here
 describe('Expense Manager testing', function() {
   //testsuit for functionality testing
@@ -9,9 +21,21 @@ describe('Expense Manager testing', function() {
     describe('Adding expense functionality testing', function() {
       // testcase to insert expense record
       it('Should create expense, returning success message', function(done) {
+        this.timeout(3000);
+        request(app)
+        .post('/api/expense/')
+        .expect(201)
+        .expect('Content-Type', /text/)
+        .send(expenseTemp)
+        .end(function(err, res) {
+          should.not.exist(err);
+          should.exist(res.body, 'Response body should not be null or undefined');
+          res.should.be.equal('Expense is added successfully', 'Response body should have a key as userInfo which will hold username value');
+          done();
+        });
           //write assertion code here and your response should return below given message
           //'Expense record is added successfully'
-          done();
+          
       });
       // testcase to handle, if expense record is already exist with the given id
       it('Should not create expense if expense is already exist with the given id, returning error message', function(done) {

@@ -46,5 +46,45 @@
     "description": "electronics",
     "amount": "35000",
     "expenseDate": "09/01/2021"
+  },
+  {
+    "id": "9f67b964-74bd-43ba-a86e-668bb4e07e13",
+    "title": "xbox",
+    "category": "gaming device",
+    "description": "electronics",
+    "amount": "35000",
+    "expenseDate": "09/01/2021"
+  },
+  {
+    "id": "a701b348-272d-4548-877b-a93d9d3d486a",
+    "title": "xbox",
+    "category": "gaming device",
+    "description": "electronics",
+    "amount": "35000",
+    "expenseDate": "09/01/2021"
+  },
+  {
+    "id": "2b78ef79-4126-4e7c-81f5-cadcf5966263",
+    "title": "xbox",
+    "category": "gaming device",
+    "description": "electronics",
+    "amount": "35000",
+    "expenseDate": "09/01/2021"
+  },
+  {
+    "id": "a55b0fb1-8671-47f6-a38e-f443337f1f22",
+    "title": "xbox",
+    "category": "gaming device",
+    "description": "electronics",
+    "amount": "35000",
+    "expenseDate": "09/01/2021"
+  },
+  {
+    "id": "5b2d126b-d220-4305-abcf-0452f18a0023",
+    "title": "asfd",
+    "category": "das",
+    "description": "dfada",
+    "amount": "345",
+    "expenseDate": "20/01/2021"
   }
 ]
